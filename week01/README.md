@@ -13,7 +13,7 @@ pip install uv
 uv pip install -r requirements.txt
 ```
 
-## 3. 不想使用Conda，想直接使用uv的看这里
+## 不想使用Conda，想直接使用uv的看这里
 ```
 pip install uv
 uv sync --locked
