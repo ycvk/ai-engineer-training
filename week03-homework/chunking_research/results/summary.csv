@@ -1,0 +1,6 @@
+method,top_k,params,n,retrieval_hit_rate,retrieval_hit_fuzzy_rate,answer_hit_rate,answer_hit_fuzzy_rate,retrieval_hit_fuzzy_avg,answer_hit_fuzzy_avg,context_tokens_avg,redundancy_ratio_avg,redundancy_grade_avg,judge_correctness_avg,judge_faithfulness_avg,judge_coverage_avg,judge_verdict_rate
+token,3,"{""chunk_size"": 256, ""chunk_overlap"": 16, ""separator"": ""\n""}",6,0.0,0.167,0.0,0.167,0.35,0.355,408,0.0,1.0,0.767,0.9,0.667,0.667
+token,5,"{""chunk_size"": 256, ""chunk_overlap"": 32, ""separator"": ""\n""}",6,0.0,0.167,0.0,0.5,0.366,0.501,729,0.0,1.0,0.967,1.0,0.878,0.833
+sentence_window,3,"{""window_size"": 3, ""window_metadata_key"": ""window"", ""original_text_metadata_key"": ""original_text""}",6,0.0,0.0,0.0,0.333,0.023,0.521,18048,0.0,1.0,1.0,0.833,1.0,1.0
+token,3,"{""chunk_size"": 128, ""chunk_overlap"": 32, ""separator"": ""\n""}",6,0.0,0.333,0.0,0.167,0.419,0.439,194,0.0,1.0,0.633,1.0,0.6,0.667
+token,5,"{""chunk_size"": 128, ""chunk_overlap"": 16, ""separator"": ""\n""}",6,0.0,0.333,0.0,0.333,0.394,0.4,324,0.0,1.0,0.733,0.983,0.705,0.667
