@@ -11,5 +11,8 @@ dependencies = [
 	"llama-index-embeddings-openai",
 	"charset-normalizer",
 	"matplotlib",
+	"paddlepaddle>=3.0,<3.3",
+	"paddleocr>=3.0,<3.1",
+	"rapidocr-onnxruntime",
 	# add your dependencies here and run `uv sync` to install them
 ]
